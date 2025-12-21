@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizza Juntos ofrece las mejores pizzas a la parrilla para tus eventos. Catering de pizzas en Córdoba y alrededores.">
+    <meta name="keywords" content="pizzas, eventos, pizza en Córdoba, catering de pizzas, pizza party">
+    <meta name="author" content="Pizza Juntos">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Redes sociales: Open Graph para Facebook, LinkedIn -->
+    <meta property="og:title" content="Pizza Juntos">
+    <meta property="og:description" content="Pizza Juntos ofrece pizzas a la parrilla, ideales para eventos. Catering de pizzas en Córdoba y alrededores.">
+    <meta property="og:image" content="https://www.pizzajuntos.com/img/Logos/logo-redondo.png">
+    <meta property="og:url" content="https://www.pizzajuntos.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pizza Juntos">
+    <meta name="twitter:description" content="Pizza Juntos: Pizzas a la parrilla, catering en Córdoba para todos tus eventos.">
+    <meta name="twitter:image" content="https://www.pizzajuntos.com/img/Logos/logo-redondo.png">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <title>Pizza Juntos</title>
+    <link rel="icon" href="./assets/img/Logos/logo-redondo.png" type="image/png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+  <header id="navbar-container"></header>  
+        
+  <main> 
+    <section id="hero-carousel" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="4000">
+      
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="hero-slide d-flex align-items-center text-center text-white"
+              style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                      url('./assets/img/portadas/portada_principal.png') center/cover no-repeat;">
+            <div class="container">
+              <h2 class="display-4 fw-bold mb-3">
+                Más de <span class="pizza-juntos titulo-subrayado text-white">10 años</span> de experiencia
+              </h2>
+              <p class="lead mb-4">Desde 2014 llevamos la pizza libre a la parrilla a los mejores eventos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="hero-slide d-flex align-items-center text-center text-white"
+              style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                      url('./assets/img/portadas/portada01.png') center/cover no-repeat;">
+            <div class="container">
+              <h2 class="display-4 fw-bold mb-3">
+                <span class="pizza-juntos titulo-subrayado text-white">Mozos uniformados</span> y atentos
+              </h2>
+              <p class="lead mb-4">Servicio cálido, profesional y con la mejor predisposición.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="hero-slide d-flex align-items-center text-center text-white"
+              style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                      url('./assets/img/portadas/portada03.png') center/cover no-repeat;">
+            <div class="container">
+              <h2 class="display-4 fw-bold mb-3">
+                Calidad en cada <span class="pizza-juntos titulo-subrayado text-white">porción</span>
+              </h2>
+              <p class="lead mb-4">Masa casera, ingredientes frescos y el sabor único de la parrilla.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+    
+    <!-- TITULO PRINCIPAL -->
+    <section>
+      <div class="container titulo-principal text-center p-4">
+        <h1 class="titulo-pizza">Pizza Juntos</h1>
+        <h5 class="subtitulo-pizza">Somos el catering que estabas buscando</h5>
+      </div>
+    </section>        
+    
+    <!-- SECCION BREVE NOSOTROS -->
+    <section class="container my-3">
+      <div class="bg-light card shadow mb-4">
+        <div class="row g-0">
+          <div class="col-md-4 p-4">
+            <img src="./assets/img/nosotros/nosotros01.jpg" class="img-fluid rounded img-dinamica" alt="Foto Ezequiel y Gabriela">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body p-4">
+              <h2 class="titulo-subrayado" data-aos="fade-right">
+                CONOCÉ SOBRE <span class="rojo">NOSOTROS</span>
+              </h2>
+
+              <p>
+                En <strong>Pizza Juntos</strong> sabemos cómo transformar tu evento en una experiencia especial: 
+                pizzas a la parrilla irresistibles y un equipo que se encarga de todo para que vos solo disfrutes.  
+              </p>
+              <p>
+                Descubrí por qué nos eligen en Córdoba 
+              </p>
+                <a href="/nosotros.html" class="btn-pizza">+ INFO</a>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </section>
+
+    <!-- SECCIÓN DE RESERVA para usar dónde se necesite -->
+    <section class="container-fluid reservar p-5 my-5">
+      <h3 class="mb-5">
+        ¿Tenés un evento próximo?
+      </h3>
+      <a href="https://wa.me/543544619403" target="_blank" class="btn-pizza">Reservar Ya</a>
+    </section>
+
+    <!-- SECCION SERVICIO BREVE -->
+    <section class="container my-3">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 p-5 bg-light shadow">
+          <h2 class="titulo-subrayado" data-aos="fade-right">
+            NUESTRO <span class="rojo">SERVICIO</span>
+          </h2>
+          <p>
+            Disfruta la excelencia en tus eventos. Nuestro catering ofrece hasta 12 variedades de pizzas gourmet, 
+            entradas y adicionales seleccionados con cuidado.
+          </p>
+          <p>
+            Masa casera, materia prima de calidad y el toque especial que le brinda la parrilla.
+          </p>
+          <p>Descubre cómo podemos hacer de tu evento un momento único.</p>
+          <a href="/servicio.html" class="btn-pizza">+ INFO</a>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="./assets/img/nosotros/mozos03.jpg" alt="Servicio" class="img-fluid img-dinamica">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección testimonios -->
+    <section class="container my-5">
+      <!-- Elfsight Google Reviews | Reseña Pizza Juntos -->
+      <script src="https://elfsightcdn.com/platform.js" async></script>
+      <div class="elfsight-app-f35ffed3-658c-494c-b66f-284f04d7ee49" data-elfsight-app-lazy></div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+
+
+    <!-- Columna con info de contacto -->
+    <section class="container my-5">
+      <div class="row align-items-stretch contacto-wrapper">
+        <div class="col-12 col-md-6 contacto-img">
+          <img src="./assets/img/generales/evento01.png" alt="Servicio" class="img-fluid h-100 w-100 object-fit-cover rounded-start img-dinamica">
+        </div>
+
+        <div class="col-12 col-md-6 p-5 bg-dark contacto-box">
+          <h2 class="titulo-subrayado" style="color: #fff;">
+            INFO DE <span class="rojo">CONTACTO</span>
+          </h2>
+
+          <ul class="info-contacto list-unstyled mt-4">
+            <li>
+              <div class="icono"><i class="bi bi-geo-alt"></i></div>
+              <div>
+                <strong>UBICACIÓN:</strong><br>
+                Córdoba Capital - Argentina
+              </div>
+            </li>
+            <li>
+              <div class="icono"><i class="bi bi-telephone"></i></div>
+              <div>
+                <strong>TELÉFONO:</strong><br>
+                +54 3544 619 403
+              </div>
+            </li>
+            <li>
+              <div class="icono"><i class="bi bi-envelope"></i></div>
+              <div>
+                <strong>EMAIL:</strong><br>
+                pizzajuntoscba@gmail.com
+              </div>
+            </li>
+            <li>
+              <div class="icono"><i class="bi bi-instagram"></i></div>
+              <div>
+                <strong>INSTAGRAM:</strong><br>
+                @pizzajuntos
+              </div>
+            </li>
+            <li>
+              <div class="icono"><i class="bi bi-facebook"></i></div>
+              <div>
+                <strong>FACEBOOK:</strong><br>
+                Pizza Juntos
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+
+  <!-- Script -->
+  <script src="/assets/main.js"></script>
+
+  <!-- AOS -->
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Bootstrap JS & Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+</body>
+</html>

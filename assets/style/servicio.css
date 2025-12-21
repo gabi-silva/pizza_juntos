@@ -1,0 +1,11 @@
+.hero-servicio {
+  min-height: 80vh; /* ocupa 80% de la pantalla */
+  background: linear-gradient(
+      rgba(0,0,0,0.6), 
+      rgba(0,0,0,0.6)
+    ),
+    url("/assets/img/portadas/portada09.png") center/cover no-repeat;
+  padding: 4rem 1rem;
+}
+
+

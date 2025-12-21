@@ -1,0 +1,29 @@
+
+section.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+
+/* Lista de contacto */
+.contact-list li {
+  margin-bottom: 1rem; /* espacio entre ítems */
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list i {
+  font-size: 1.5rem; /* íconos más grandes */
+  margin-right: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  color: var(--bs-danger); /* rojo o tu color pizza-juntos */
+}
